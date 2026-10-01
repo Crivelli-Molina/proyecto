@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+  <rect width="800" height="260" fill="white"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="40" y="80" width="200" height="90" fill="none" stroke="black" stroke-width="2"/>
+    <text x="140" y="115" font-size="18">Cilleruelo de Bricia</text>
+    <text x="140" y="145" font-size="14">Nacimiento</text>
+
+    <line x1="240" y1="125" x2="300" y2="125" stroke="black" stroke-width="2"/>
+
+    <rect x="300" y="80" width="200" height="90" fill="none" stroke="black" stroke-width="2"/>
+    <text x="400" y="115" font-size="18">Villacarriedo</text>
+    <text x="400" y="145" font-size="14">Misión educativa</text>
+
+    <line x1="500" y1="125" x2="560" y2="125" stroke="black" stroke-width="2"/>
+
+    <rect x="560" y="80" width="200" height="90" fill="none" stroke="black" stroke-width="2"/>
+    <text x="660" y="115" font-size="18">Santander</text>
+    <text x="660" y="145" font-size="14">1936</text>
+
+    <text x="400" y="220" font-size="14">Esquema de lugares importantes - no está a escala</text>
+  </g>
+</svg>
