@@ -1,0 +1,230 @@
+/* Estilos generales de la página */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f2ec;
+    color: #30343b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Encabezado y menú */
+header {
+    background-color: #253e55;
+    color: white;
+    text-align: center;
+    padding: 38px 20px 28px;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 36px;
+    margin: 0 0 8px;
+}
+
+header p {
+    margin: 0;
+    color: #e7dfd2;
+}
+
+nav {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #75889b;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    background-color: #b88b52;
+    border-color: #b88b52;
+    color: #1f2f40;
+}
+
+/* Contenido principal */
+main {
+    max-width: 970px;
+    margin: 28px auto;
+    padding: 0 16px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 28px 32px;
+    border: 1px solid #e3dfd6;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #253e55;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 26px;
+    margin-top: 0;
+    border-bottom: 2px solid #bc965f;
+    padding-bottom: 9px;
+}
+
+h3 {
+    color: #654c32;
+    font-size: 19px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+/* Presentación destacada: ejemplo de selector de clase */
+.destacado {
+    border-left: 6px solid #bc965f;
+    background-color: #fffdf8;
+}
+
+/* Tarjetas dentro de la biografía */
+article {
+    background-color: #f7f7f5;
+    padding: 15px 20px;
+    margin-top: 14px;
+    border-left: 3px solid #8ca1b2;
+    border-radius: 4px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+/* Lista de valores */
+#mision ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+    list-style: none;
+}
+
+#mision li {
+    background-color: #eee5d8;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+/* Línea de tiempo */
+#linea-tiempo ol {
+    padding-left: 22px;
+}
+
+#linea-tiempo li {
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+/* Imágenes y sus descripciones */
+figure {
+    margin: 20px 0;
+    padding: 16px;
+    background-color: #f6f7f8;
+    border-radius: 6px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+figcaption {
+    color: #606875;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.imagen-pendiente {
+    border: 1px dashed #a5a5a5;
+}
+
+/* Preguntas del cuestionario */
+fieldset {
+    margin: 16px 0;
+    padding: 16px 20px;
+    border: 1px solid #d0d4da;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    color: #253e55;
+}
+
+form label {
+    display: block;
+    margin: 7px 0;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #253e55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    font-size: 15px;
+}
+
+button:disabled {
+    background-color: #7e8790;
+    cursor: not-allowed;
+}
+
+/* Enlaces y pie de página */
+a {
+    color: #245c85;
+}
+
+footer {
+    background-color: #253e55;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+/* Ajustes para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 7px 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}

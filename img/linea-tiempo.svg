@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <rect width="900" height="180" fill="white"/>
+  <line x1="70" y1="90" x2="830" y2="90" stroke="black" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <circle cx="90" cy="90" r="7" fill="black"/>
+    <text x="90" y="55">1899</text>
+    <text x="90" y="125">Nacimiento</text>
+
+    <circle cx="210" cy="90" r="7" fill="black"/>
+    <text x="210" y="55">1915</text>
+    <text x="210" y="125">Hábito</text>
+
+    <circle cx="330" cy="90" r="7" fill="black"/>
+    <text x="330" y="55">1922</text>
+    <text x="330" y="125">Villacarriedo</text>
+
+    <circle cx="450" cy="90" r="7" fill="black"/>
+    <text x="450" y="55">1928</text>
+    <text x="450" y="125">Sacerdote</text>
+
+    <circle cx="570" cy="90" r="7" fill="black"/>
+    <text x="570" y="55">1930-36</text>
+    <text x="570" y="125">Procurador</text>
+
+    <circle cx="690" cy="90" r="7" fill="black"/>
+    <text x="690" y="55">1936</text>
+    <text x="690" y="125">Santander</text>
+
+    <circle cx="810" cy="90" r="7" fill="black"/>
+    <text x="810" y="55">1995</text>
+    <text x="810" y="125">Beatificación</text>
+  </g>
+</svg>
