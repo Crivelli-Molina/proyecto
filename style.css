@@ -228,3 +228,117 @@ footer {
         font-size: 23px;
     }
 }
+
+/* Fase 4: estilos del cuestionario interactivo */
+#quiz .progreso-quiz {
+    background-color: #e8eef4;
+    color: #253e55;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-weight: bold;
+}
+
+#quiz fieldset {
+    background-color: #fafbfc;
+    padding: 20px;
+}
+
+#quiz legend {
+    padding: 0 6px;
+    font-size: 17px;
+}
+
+#quiz label {
+    display: block;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: 1px solid #d6dce2;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#quiz label:hover {
+    border-color: #7794ae;
+    background-color: #f0f5f9;
+}
+
+#quiz label:focus-within {
+    outline: 2px solid #245c85;
+    outline-offset: 2px;
+}
+
+#quiz label.opcion-correcta {
+    background-color: #e2f2e8;
+    border-color: #277048;
+    color: #175434;
+    font-weight: bold;
+}
+
+#quiz label.opcion-incorrecta {
+    background-color: #fce9e7;
+    border-color: #b74741;
+    color: #8e2823;
+}
+
+#quiz fieldset.pregunta-correcta {
+    border-left: 5px solid #277048;
+}
+
+#quiz fieldset.pregunta-incorrecta {
+    border-left: 5px solid #b74741;
+}
+
+#quiz .feedback-pregunta {
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+#quiz .aviso-quiz {
+    padding: 12px 14px;
+    color: #7f3224;
+    background-color: #fff0eb;
+    border: 1px solid #bd6a54;
+    border-radius: 6px;
+}
+
+#quiz .acciones-quiz {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+#quiz button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#quiz button:hover:not(:disabled) {
+    background-color: #365e7f;
+}
+
+#quiz button.boton-secundario {
+    background-color: #ede5d8;
+    color: #253e55;
+    border: 1px solid #b8a68c;
+}
+
+#quiz button.boton-secundario:hover {
+    background-color: #ddd0b9;
+}
+
+#quiz .resultado-quiz {
+    margin-top: 18px;
+    padding: 18px;
+    border: 2px solid #7794ae;
+    background-color: #eef4f8;
+    color: #253e55;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#quiz [hidden] {
+    display: none;
+}
